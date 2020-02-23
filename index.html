@@ -2,6 +2,7 @@
 
 <html lang="fr" class="no-js">
 <!--<![endif]-->
+
 <head>
     <meta charset="utf-8">
 
@@ -24,14 +25,14 @@
     <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
     <link rel="stylesheet" href="font/Marioline Barnard.ttf">
-    
+
     <!-- Owl Carousel Assets -->
     <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
-    
+
     <!-- Font Awesome -->
     <link href="font/css/font-awesome.min.css" rel="stylesheet">
-  
+
 </head>
 
 <body>
@@ -39,13 +40,14 @@
         <div class="container">
             <nav id="nav" class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#main-nav">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top logo"><b>Web Développeuse</b></a>
+                    <a href="#" class="navbar-brand scroll-top logo"><b>Kahina Sebbane</b></a>
                 </div>
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
@@ -55,11 +57,11 @@
                         <li><a href="#experience" class="scroll-link">Expériences</a></li>
                         <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
                         <li><a href="#contactUs" class="scroll-link">Contactez moi</a></li>
-					
+                        <li><div class="navbar-brand col-12" id="switch">
+                            <span class="inner-switch">OFF</span></li>
+                        </div>
                     </ul>
-                    <div class="navbar-brand" id="switch">Dark mode:              
-                        <span class="inner-switch">OFF</span>
-                    </div>
+                   
                 </div>
                 <!--/.navbar-collapse-->
             </nav>
@@ -71,7 +73,7 @@
     <div id="#top"></div>
     <section id="home">
         <div class="banner-container">
-            <img src="images/banniere2.png"/>
+            <img src="images/banniere2.png" />
             <div class="container banner-content">
                 <div id="da-slider" class="da-slider">
                     <div class="da-slide">
@@ -81,19 +83,19 @@
                     </div>
                     <div class="da-slide">
                         <h2>DEVELOPPEUSE BACK-END </h2>
-                       
+
                         <div class="da-img"></div>
                     </div>
                     <div class="da-slide">
-                        <h2>HTML/CSS/PHP</h2>
-                        
+                        <h2>HTML/CSS/PHP/JS</h2>
+
                         <div class="da-img"></div>
                     </div>
                     <div class="da-slide">
                         <h2>En formation à l'adrar</h2>
                         <div class="da-img"></div>
                     </div>
-				<!--  <nav class="da-arrows">
+                    <!--  <nav class="da-arrows">
                         <span class="da-arrows-prev"></span>
                         <span class="da-arrows-next"></span>
                     </nav> -->
@@ -101,70 +103,76 @@
             </div>
         </div>
     </section>
-    <section id="introText">
+    <!-- <section id="introText">
         <div id="colortextdark" class="container">
             <div class="text-center">
-            <h1 class="text-muted"> Kahina SEBBANE, développeuse web en formation à l'ADRAR </h1>
-             
+                <h1 class="text-muted"> Kahina SEBBANE, développeuse web en formation à l'ADRAR </h1>
+
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!--About-->
     <div id="aboutUs" class="secPad">
         <div class="container">
             <div class="heading text-center">
                 <!-- Heading -->
                 <h2>Mes compétences</h2>
-              
+
             </div>
             <div id="text" class="row">
                 <!-- item -->
-                <div class="col-md-4 text-center tileBox">
-                   <div  class="txtHead"> <i class="fa fa-pencil"></i>
-                   <h3 id="text" class="text-muted"><strong>Responsive</strong> <span class="id-color">
-					<br>Wordpress/Bootstrap</span></h3></div>
-                   
-                </div>
+                <button  class="focus col-md-4 text-center tileBox">
+                    <div class="txtHead"> <i class="fa fa-pencil"></i>
+                        <h3 class="text-muted"><strong>Responsive</strong> <span class="id-color">
+                                <br>Wordpress/Bootstrap</span></h3>
+                    </div>
+                </button>
                 <!-- end: -->
 
                 <!-- item -->
-                <div class="col-md-4 text-center tileBox">
-                    <div class="txtHead"><i class="fa fa-css3" ></i><i class="fa fa-html5"></i>
-                    <h3 class="text-muted"><strong>HTML/CSS</strong><span class="id-color">
-					<br>sites vitrines</span></h3></div>
-                    
-                </div>
+                <button id="focus" class="focus col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa fa-css3"></i><i class="fa fa-html5"></i>
+                        <h3 class="text-muted"><strong>HTML/CSS</strong><span class="id-color">
+                                <br>sites vitrines</span></h3>
+                    </div>
+                </button>
                 <!-- end: -->
 
+
                 <!-- item -->
-                <div class="col-md-4 text-center tileBox">
+                <button id="focus" class="focus col-md-4 text-center tileBox">
                     <div class="txtHead"><i class="fa fa-book"></i>
-                    <h3 class="text-muted"><strong>PHP</strong> <span class="id-color">
-					<br>sites dynamiques</span></h3></div>
-                   
-                </div>
-               
-                <div class="col-md-4 text-center tileBox">
-                        <div class="txtHead"><i class="fa"></i>
-                            <img src="images/adobephotoshop.svg">
-                    <h3 class="text-muted"><strong>Photoshop</strong><span class="id-color">
-					<br>retouches d'images</span></h3></div>
-                </div>   
-                     
-                <div class="col-md-4 text-center tileBox">
-                        <div class="txtHead"><i class="fa"></i>
-                            <img src="images/adobeillustrator.svg">
-                    <h3 class="text-muted"><strong>Illustrator</strong><span class="id-color">
-					<br>illustrations</span></h3></div>
-                 </div>
-                 <div class="col-md-4 text-center tileBox">
-                        <div class="txtHead"><i class="fa"></i>
-                            <img src="images/krita.svg">
-                    <h3 class="text-muted"><strong>Krita</strong><span class="id-color">
-					<br>retouches d'images</span></h3></div>
-                 </div>
-                
+                        <h3 class="text-muted"><strong>PHP</strong> <span class="id-color">
+                                <br>sites dynamiques</span></h3>
+                    </div>
+
+                </button>
+
+                <button id="focus" class="focus col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa"></i>
+                        <img src="images/adobephotoshop.svg">
+                        <h3 class="text-muted"><strong>Photoshop</strong><span class="id-color">
+                                <br>retouches d'images</span></h3>
+                    </div>
+                </button>
+
+                <button id="focus" class="focus col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa"></i>
+                        <img src="images/adobeillustrator.svg">
+                        <h3 class="text-muted"><strong>Illustrator</strong><span class="id-color">
+                                <br>illustrations/logos</span></h3>
+                    </div>
+                </button>
+
+                <button id="focus" class="focus col-md-4 text-center tileBox">
+                    <div class="txtHead"><i class="fa"></i>
+                        <img src="images/krita.svg">
+                        <h3 class="text-muted"><strong>Krita</strong><span class="id-color">
+                                <br>retouches d'images</span></h3>
+                    </div>
+                </button>
+
                 <!-- end: -->
             </div>
         </div>
@@ -173,153 +181,168 @@
     <section id="quote" class="bg-parlex">
         <div class="parlex-back">
             <div class="container secPad text-center mr-10">
-				<blockquote>Tout moyen de communication est la meilleure et la pire des choses. Avec internet, on peut faire le meilleur comme le pire. C'est la pratique qui compte. </blockquote>
+                <blockquote>Tout moyen de communication est la meilleure et la pire des choses. Avec internet, on peut
+                    faire le meilleur comme le pire. C'est la pratique qui compte. </blockquote>
                 <cite>Michel Serres</cite>
             </div>
             <!--/.container-->
         </div>
     </section>
-      
+
     <!--Experience-->
     <section id="experience" class="secPad">
-    	<div class="container">     
-           <div class="heading text-center">
+        <div class="container">
+            <div class="heading text-center">
                 <!-- Heading -->
                 <h2>Experiences Professionnelles</h2>
                 <p>EXPERIENCES / FORMATIONS</p>
             </div>
-        <div id="timeline"><div class="row timeline-movement timeline-movement-top">
-        <div class="timeline-badge timeline-future-movement">
-            <a href="#">
-                <span class="glyphicon glyphicon-plus"></span>
-            </a>
-        </div>
-        <div class="timeline-badge timeline-filter-movement">
-            <a href="#">
-             
-            </a>
-        </div>
-    
-    </div>
-    <div class="row timeline-movement">
-    
-        <div class="timeline-badge">
-                <span class="timeline-balloon-date-day">2019</span>
-            <span class="timeline-balloon-date-month"></span>
-        </div>
-    
-    
-        <div class="col-sm-6  timeline-item">
-            <div class="row">
-                <div class="col-sm-11">
-                    <div class="timeline-panel debits">
-                        <ul class="timeline-panel-ul">
-                            <li><span class="importo">Stage</span></li>
-                            <li><span class="causale">En cours </span> </li>
-                            <li><p><small class="text-muted"> 18/02/2014 - Present</small></p> </li>
-                        </ul>
+            <div id="timeline">
+                <div class="row timeline-movement timeline-movement-top">
+                    <div class="timeline-badge timeline-future-movement">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </a>
                     </div>
-    
+                    <div class="timeline-badge timeline-filter-movement">
+                        <a href="#">
+
+                        </a>
+                    </div>
+
                 </div>
-                
-            </div>
-            
-        </div>
-        <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-11">
-                        <div class="timeline-panel debits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Formation ADRAR (Pôle numérique) PHP</span></li>
-                                <li><span class="causale">Apprentissage de méthodes agiles </span> </li>
-                                <li><p><small class="text-muted"> 12/2019 - 09/2020</small></p> </li>
-                            </ul>
+                <div class="row timeline-movement">
+
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">2019</span>
+                        <span class="timeline-balloon-date-month"></span>
+                    </div>
+
+
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Stage</span></li>
+                                        <li><span class="causale">En cours </span> </li>
+                                        <li>
+                                            <p><small class="text-muted"> 18/02/2014 - Present</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
                         </div>
-        
+
                     </div>
-                </div>
-            </div>
-    
-        <div class="col-sm-6  timeline-item">
-            <div class="row">
-                    <div class="col-sm-11">
-                    <div class="timeline-panel debits">
-                        <ul class="timeline-panel-ul">
-                            <li><span class="importo">Animatrice vacances évasion </span></li>
-                            <li><span class="causale"><li><strong>travail d'équipe</strong></li>
-                                                     <li>adaptation</li>  aisance à l'oral </span> </li>
-                            <li><p><small class="text-muted"> 08/2019</small></p> </li>
-                        </ul>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-        <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-11">
-                        <div class="timeline-panel debits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Formation Open Classroom</span></li>
-                                <li><span class="causale">Html5/css </span> </li>
-                                <li><span class="causale">Bootstrap</span></li>
-                                <li><span class="causale">Javascript</span></li>
-                                <li><p><small class="text-muted"> 01/06/2019</small></p> </li>
-                            </ul>
+                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Formation ADRAR (Pôle numérique) PHP</span></li>
+                                        <li><span class="causale">Apprentissage de méthodes agiles </span> </li>
+                                        <li>
+                                            <p><small class="text-muted"> 12/2019 - 09/2020</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
                         </div>
-        
+                    </div>
+
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Animatrice vacances évasion </span></li>
+                                        <li><span class="causale">
+                                        <li><strong>Travail d'équipe</strong></li>
+                                        <li>Adaptation</li> Aisance à l'oral </span> </li>
+                                        <li>
+                                            <p><small class="text-muted"> 08/2019</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Formation Open Classroom</span></li>
+                                        <li><span class="causale">Html5/css </span> </li>
+                                        <li><span class="causale">Bootstrap</span></li>
+                                        <li><span class="causale">Javascript</span></li>
+                                        <li>
+                                            <p><small class="text-muted"> 01/06/2019</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-    </div>
-    
-    <!--due -->
-    
-    <div class="row timeline-movement">
-    
-    
-        <div class="timeline-badge">
-            <span class="timeline-balloon-date-day">2018</span>
-            <span class="timeline-balloon-date-month"></span>
-        </div>
-    
-       
-    
-        <div class="col-sm-6  timeline-item">
-            <div class="row">
-                <div class="col-sm-11">
-                    <div class="timeline-panel debits">
-                        <ul class="timeline-panel-ul">
-                            <li><span class="importo">Chef de rang Rainforest cafe Disney</span></li>
-                            <li><span class="causale"><li>organisation</li> 
-                                                      <li>gestion du stress</li> 
-                                                      <li><strong>communication</strong></li> <strong>contact client </strong></span> </li>
-                            <li><p><small class="text-muted"> 02/2018 - 12/2018</small></p> </li>
-                        </ul>
+
+                <!--due -->
+
+                <div class="row timeline-movement">
+
+
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">2018</span>
+                        <span class="timeline-balloon-date-month"></span>
                     </div>
-    
+
+
+
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">Chef de rang Rainforest cafe Disney</span></li>
+                                        <li><span class="causale">
+                                        <li>Organisation</li>
+                                        <li>Gestion du stress</li>
+                                        <li><strong>Communication</strong></li> <strong>Contact client </strong></span>
+                                        </li>
+                                        <li>
+                                            <p><small class="text-muted"> 02/2018 - 12/2018</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row timeline-movement">
                 </div>
             </div>
         </div>
-    
-    
-    </div>
-    <div class="row timeline-movement">
-     </div>
-    </div>
-    </div>
-    
+
     </section>
-    
-  
-   <!--Portfolio-->
+
+
+    <!--Portfolio-->
     <section id="portfolio" class="page-section section appear clearfix secPad">
         <div class="container">
 
             <div class="heading text-center">
                 <!-- Heading -->
-                <h2><strong>Portfolio</h2>
-               
+                <h2><strong>Portfoli<a href="https://github.com/KahinaS" target="_blank"><i class="fa fa-github"></i></a></h2>
+
             </div>
 
             <div class="row">
@@ -340,9 +363,11 @@
                                     <img src="images/portfolio/australia.png" alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="https://rudygzl.github.io/australiasavior/dist/" target="_blank" class="fancybox">
+                                            <a href="https://rudygzl.github.io/australiasavior/dist/" target="_blank"
+                                                class="fancybox">
                                                 <h5>Australia Savior</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                                <i class="fa fa-arrows-alt fa-2x"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -353,9 +378,10 @@
                                     <img src="images/portfolio/kosmia.png" alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="https://www.dk-kosma.fr/"target="_blank" class="fancybox">
+                                            <a href="https://www.dk-kosma.fr/" target="_blank" class="fancybox">
                                                 <h5>DK-Kosma</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                                <i class="fa fa-arrows-alt fa-2x"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -370,17 +396,18 @@
                                     <img src="images/portfolio/bisc.png" alt="fancybox" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="https://bisc-production.fr/"target="_blank" class="fancybox">
-                                                <h5>Bisc Production</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                            <a href="https://werock.tripart.fr/" target="_blank" class="fancybox">
+                                                <h5>En cours</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            
 
-                          
+
+
 
                             <article class="col-sm-4 isotopeItem print">
                                 <div class="portfolio-item">
@@ -389,7 +416,8 @@
                                         <div class="folio-info">
                                             <a href="images/portfolio/cvpapier.png" class="fancybox">
                                                 <h5>Project Name</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                                <i class="fa fa-arrows-alt fa-2x"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -405,7 +433,7 @@
         </div>
     </section>
 
-	<!--Contact -->
+    <!--Contact -->
     <section id="contactUs" class="page-section secPad">
         <div class="container">
 
@@ -414,7 +442,8 @@
                     <!-- Heading -->
                     <h2>Restons en contact</h2>
                     <p>
-Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, veuillez remplir le formulaire ci-dessous.</p>
+                        Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, veuillez remplir
+                        le formulaire ci-dessous.</p>
                 </div>
             </div>
 
@@ -425,17 +454,21 @@ Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, 
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="name">Nom Prénom</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name"
+                                title="Please enter your name (at least 2 characters)">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email"
+                                title="Please enter a valid email address">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="comments">Commentaire</label>
-                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5"
+                                placeholder="Enter your message…"
+                                title="Please enter your message (at least 10 characters)"></textarea>
                         </div>
                         <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">e-mail</button>
                         <div class="result"></div>
@@ -444,18 +477,16 @@ Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, 
                 <div class="col-sm-4">
                     <h4>Adresse:</h4>
                     <address>
-                        Kahina SEBBANE<br>
-                       
-					  <br>
-                       Montpellier 34080
+                        Kahina SEBBANE<br> 
+                        Montpellier 34080
                         <br>
                     </address>
                     <h4>Télephone</h4>
                     <address>
-                       0622946106
-                      <br><a href="mailto:sebbanekahina78@gmail.com">sebbanekahina78@gmail.com</a>
-                      <br><a href="https://www.linkedin.com/in/kahina-sebbane-3aa01a19a/"target="_blank" >Linkedin</a>
-                      <br><a href="https://github.com/KahinaS"target="_blank" >Github</a>
+                        0622946106
+                       
+                        <br><a href="https://www.linkedin.com/in/kahina-sebbane-3aa01a19a/" target="_blank">Linkedin</a>
+                        <br><a href="https://github.com/KahinaS" target="_blank">Github</a>
                     </address>
                 </div>
             </div>
@@ -465,12 +496,11 @@ Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, 
     <footer>
         <div class="container">
             <div class="social text-center">
-                    <a href="https://github.com/KahinaS"target="_blank" ><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/kahina-sebbane-3aa01a19a/"target="_blank" ><i class="fa fa-linkedin"></i></a>
-				
-             
-            </div>
-
+                <a href="https://github.com/KahinaS" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kahina-sebbane-3aa01a19a/" target="_blank"><i
+                        class="fa fa-linkedin"></i></a>
+                    </div>
+                        <div class="iconresume"><a href="images/portfolio/cvpapier.png" target="_blank"><i><img src="images/dee.png"></i></a></div>
             <div class="clear"></div>
             <!--CLEAR FLOATS-->
         </div>
@@ -480,7 +510,8 @@ Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    Copyright 2019 | Tous droits réservés -- Design by <a href="testdocpdf.pdf" target="_blank">SEBBANE Kahina </a>
+                    Copyright 2019 | Tous droits réservés -- Design by <a href="testdocpdf.pdf" target="_blank">SEBBANE
+                        Kahina </a>
                 </div>
             </div>
             <!-- / .row -->
@@ -499,4 +530,5 @@ Merci d'avoir visité mon profil. Si vous souhaitez entrer en contact avec moi, 
     <script src="js/custom.js" type="text/javascript"></script>
     <script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
+
 </html>
