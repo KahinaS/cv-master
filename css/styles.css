@@ -1178,7 +1178,8 @@ footer {
 
     #switch {
         align-self: flex-end;
-        margin: 0.9375rem;
+        margin: 1.5rem;
+        padding: 2px;
       }
 
       
@@ -1193,3 +1194,8 @@ footer {
         padding: 0.1875rem;
         margin-left: 0.3125rem;
       }
+
+      .iconresume {
+          margin: -9%;
+      }
+     
